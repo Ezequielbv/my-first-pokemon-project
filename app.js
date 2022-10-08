@@ -1,4 +1,4 @@
-let count = 1;
+let count = 12;
 
 function render() {
     let container = document.getElementById('pokemon');
@@ -22,3 +22,5 @@ next.onclick = function() {
         render();
     }
 }
+
+render();
